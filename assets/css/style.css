@@ -286,7 +286,7 @@ a {
   align-items: center;
   background:
     linear-gradient(90deg, rgba(40,30,20,.45), rgba(40,30,20,.15)),
-    url('../img/top(2).JPG') center/cover no-repeat;
+    url('../img/top.JPG') center/cover no-repeat;
   color: #fff;
 }
 
@@ -840,7 +840,7 @@ a {
   padding-top: 82px;
   background:
     linear-gradient(180deg, rgba(40,30,20,.45), rgba(40,30,20,.18)),
-    url('../img/top(2).JPG') center/cover no-repeat;
+    url('../img/top.JPG') center/cover no-repeat;
 }
 
   .hero-buttons {
