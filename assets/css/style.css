@@ -280,13 +280,13 @@ a {
 }
 
 .hero {
-  min-height: 92vh;
-  padding-top: var(--header-h);
+  min-height: 78vh;
+  padding-top: 150px;
   display: grid;
-  align-items: stretch;
+  align-items: center;
   background:
-    linear-gradient(90deg, rgba(62,44,31,.64), rgba(62,44,31,.25)),
-    url('../img/yakioyaki.JPG') center/cover no-repeat;
+    linear-gradient(90deg, rgba(40,30,20,.45), rgba(40,30,20,.15)),
+    url('../img/top.JPG') center/cover no-repeat;
   color: #fff;
 }
 
