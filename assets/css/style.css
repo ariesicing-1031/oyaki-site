@@ -835,13 +835,10 @@ a {
     gap: 14px;
   }
 
-.hero {
-  min-height: auto;
-  padding-top: 82px;
-  background:
-    linear-gradient(180deg, rgba(40,30,20,.45), rgba(40,30,20,.18)),
-    url('../img/top.JPG') center/cover no-repeat;
-}
+  .hero {
+    min-height: 84vh;
+    background-position: center;
+  }
 
   .hero-buttons {
     flex-direction: column;
