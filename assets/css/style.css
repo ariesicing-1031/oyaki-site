@@ -2021,3 +2021,17 @@ a {
     order: 1;
   }
 }
+/* ===== 右のおばあちゃん画像だけ少し小さくする ===== */
+.illust-card img[src*="oyakiobasan"] {
+  width: 120px;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto 14px;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .illust-card img[src*="oyakiobasan"] {
+    width: 90px;
+  }
+}
