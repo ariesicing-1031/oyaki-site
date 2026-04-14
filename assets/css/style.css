@@ -943,7 +943,7 @@ a {
     padding-top: var(--header-h);
     background:
       linear-gradient(180deg, rgba(62,44,31,.54), rgba(62,44,31,.32)),
-      url('../img/top.JPG') center/cover no-repeat;
+      url('../img/yakioyaki.JPG') center/cover no-repeat;
   }
 
   .hero-inner {
@@ -2021,7 +2021,6 @@ a {
     order: 1;
   }
 }
-/* ===== 右のおばあちゃん画像だけ少し小さくする ===== */
 .illust-card img[src*="oyakiobasan"] {
   width: 120px;
   max-width: 100%;
