@@ -943,7 +943,7 @@ a {
     padding-top: var(--header-h);
     background:
       linear-gradient(180deg, rgba(62,44,31,.54), rgba(62,44,31,.32)),
-      url('../img/top.JPG') center/cover no-repeat;
+      url('../img/yakioyaki.JPG') center/cover no-repeat;
   }
 
   .hero-inner {
@@ -2014,11 +2014,11 @@ a {
   }
 
   .qr-box:first-child {
-    order: 2;
+    order: 1;
   }
 
   .qr-box:last-child {
-    order: 1;
+    order: 2;
   }
 }
 .illust-card img[src*="oyakiobasan"] {
@@ -2185,21 +2185,6 @@ a {
   .shop-banner:hover {
     transform: none;
   }
-  /* PCはそのまま、スマホだけQRの順番を変更 */
-@media (max-width: 768px) {
-  .qr-area {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .qr-box:first-child {
-    order: 2;
-  }
-
-  .qr-box:last-child {
-    order: 1;
-  }
-}
 
   .section-title::after {
     width: 56px;
