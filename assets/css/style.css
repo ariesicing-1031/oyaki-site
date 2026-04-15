@@ -2185,6 +2185,21 @@ a {
   .shop-banner:hover {
     transform: none;
   }
+  /* PCはそのまま、スマホだけQRの順番を変更 */
+@media (max-width: 768px) {
+  .qr-area {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .qr-box:first-child {
+    order: 2;
+  }
+
+  .qr-box:last-child {
+    order: 1;
+  }
+}
 
   .section-title::after {
     width: 56px;
